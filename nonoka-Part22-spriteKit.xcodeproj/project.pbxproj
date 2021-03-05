@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F67880D25F27AEA00F3F63A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F67880C25F27AEA00F3F63A /* AppDelegate.swift */; };
+		5F67880F25F27AEA00F3F63A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F67880E25F27AEA00F3F63A /* SceneDelegate.swift */; };
+		5F67881125F27AEA00F3F63A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F67881025F27AEA00F3F63A /* ViewController.swift */; };
+		5F67881425F27AEA00F3F63A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F67881225F27AEA00F3F63A /* Main.storyboard */; };
+		5F67881625F27AF000F3F63A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F67881525F27AF000F3F63A /* Assets.xcassets */; };
+		5F67881925F27AF000F3F63A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F67881725F27AF000F3F63A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F67882025F27AF000F3F63A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F67880125F27AE900F3F63A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F67880825F27AEA00F3F63A;
+			remoteInfo = "nonoka-Part22-spriteKit";
+		};
+		5F67882B25F27AF000F3F63A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F67880125F27AE900F3F63A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F67880825F27AEA00F3F63A;
+			remoteInfo = "nonoka-Part22-spriteKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F67880925F27AEA00F3F63A /* nonoka-Part22-spriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nonoka-Part22-spriteKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F67880C25F27AEA00F3F63A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F67880E25F27AEA00F3F63A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F67881025F27AEA00F3F63A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F67881325F27AEA00F3F63A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F67881525F27AF000F3F63A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F67881825F27AF000F3F63A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F67881A25F27AF000F3F63A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F67881F25F27AF000F3F63A /* nonoka-Part22-spriteKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nonoka-Part22-spriteKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F67882A25F27AF000F3F63A /* nonoka-Part22-spriteKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nonoka-Part22-spriteKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F67880625F27AEA00F3F63A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F67881C25F27AF000F3F63A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F67882725F27AF000F3F63A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F67880025F27AE900F3F63A = {
+			isa = PBXGroup;
+			children = (
+				5F67880B25F27AEA00F3F63A /* nonoka-Part22-spriteKit */,
+				5F67880A25F27AEA00F3F63A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F67880A25F27AEA00F3F63A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F67880925F27AEA00F3F63A /* nonoka-Part22-spriteKit.app */,
+				5F67881F25F27AF000F3F63A /* nonoka-Part22-spriteKitTests.xctest */,
+				5F67882A25F27AF000F3F63A /* nonoka-Part22-spriteKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F67880B25F27AEA00F3F63A /* nonoka-Part22-spriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				5F67880C25F27AEA00F3F63A /* AppDelegate.swift */,
+				5F67880E25F27AEA00F3F63A /* SceneDelegate.swift */,
+				5F67881025F27AEA00F3F63A /* ViewController.swift */,
+				5F67881225F27AEA00F3F63A /* Main.storyboard */,
+				5F67881525F27AF000F3F63A /* Assets.xcassets */,
+				5F67881725F27AF000F3F63A /* LaunchScreen.storyboard */,
+				5F67881A25F27AF000F3F63A /* Info.plist */,
+			);
+			path = "nonoka-Part22-spriteKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F67880825F27AEA00F3F63A /* nonoka-Part22-spriteKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F67883325F27AF000F3F63A /* Build configuration list for PBXNativeTarget "nonoka-Part22-spriteKit" */;
+			buildPhases = (
+				5F67880525F27AEA00F3F63A /* Sources */,
+				5F67880625F27AEA00F3F63A /* Frameworks */,
+				5F67880725F27AEA00F3F63A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nonoka-Part22-spriteKit";
+			productName = "nonoka-Part22-spriteKit";
+			productReference = 5F67880925F27AEA00F3F63A /* nonoka-Part22-spriteKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F67881E25F27AF000F3F63A /* nonoka-Part22-spriteKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F67883625F27AF000F3F63A /* Build configuration list for PBXNativeTarget "nonoka-Part22-spriteKitTests" */;
+			buildPhases = (
+				5F67881B25F27AF000F3F63A /* Sources */,
+				5F67881C25F27AF000F3F63A /* Frameworks */,
+				5F67881D25F27AF000F3F63A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F67882125F27AF000F3F63A /* PBXTargetDependency */,
+			);
+			name = "nonoka-Part22-spriteKitTests";
+			productName = "nonoka-Part22-spriteKitTests";
+			productReference = 5F67881F25F27AF000F3F63A /* nonoka-Part22-spriteKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F67882925F27AF000F3F63A /* nonoka-Part22-spriteKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F67883925F27AF000F3F63A /* Build configuration list for PBXNativeTarget "nonoka-Part22-spriteKitUITests" */;
+			buildPhases = (
+				5F67882625F27AF000F3F63A /* Sources */,
+				5F67882725F27AF000F3F63A /* Frameworks */,
+				5F67882825F27AF000F3F63A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F67882C25F27AF000F3F63A /* PBXTargetDependency */,
+			);
+			name = "nonoka-Part22-spriteKitUITests";
+			productName = "nonoka-Part22-spriteKitUITests";
+			productReference = 5F67882A25F27AF000F3F63A /* nonoka-Part22-spriteKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F67880125F27AE900F3F63A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					5F67880825F27AEA00F3F63A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					5F67881E25F27AF000F3F63A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5F67880825F27AEA00F3F63A;
+					};
+					5F67882925F27AF000F3F63A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5F67880825F27AEA00F3F63A;
+					};
+				};
+			};
+			buildConfigurationList = 5F67880425F27AE900F3F63A /* Build configuration list for PBXProject "nonoka-Part22-spriteKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F67880025F27AE900F3F63A;
+			productRefGroup = 5F67880A25F27AEA00F3F63A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F67880825F27AEA00F3F63A /* nonoka-Part22-spriteKit */,
+				5F67881E25F27AF000F3F63A /* nonoka-Part22-spriteKitTests */,
+				5F67882925F27AF000F3F63A /* nonoka-Part22-spriteKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F67880725F27AEA00F3F63A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F67881925F27AF000F3F63A /* LaunchScreen.storyboard in Resources */,
+				5F67881625F27AF000F3F63A /* Assets.xcassets in Resources */,
+				5F67881425F27AEA00F3F63A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F67881D25F27AF000F3F63A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F67882825F27AF000F3F63A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F67880525F27AEA00F3F63A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F67881125F27AEA00F3F63A /* ViewController.swift in Sources */,
+				5F67880D25F27AEA00F3F63A /* AppDelegate.swift in Sources */,
+				5F67880F25F27AEA00F3F63A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F67881B25F27AF000F3F63A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F67882625F27AF000F3F63A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F67882125F27AF000F3F63A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F67880825F27AEA00F3F63A /* nonoka-Part22-spriteKit */;
+			targetProxy = 5F67882025F27AF000F3F63A /* PBXContainerItemProxy */;
+		};
+		5F67882C25F27AF000F3F63A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F67880825F27AEA00F3F63A /* nonoka-Part22-spriteKit */;
+			targetProxy = 5F67882B25F27AF000F3F63A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F67881225F27AEA00F3F63A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F67881325F27AEA00F3F63A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F67881725F27AF000F3F63A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F67881825F27AF000F3F63A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F67883125F27AF000F3F63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F67883225F27AF000F3F63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F67883425F27AF000F3F63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Z4MKYS28;
+				INFOPLIST_FILE = "nonoka-Part22-spriteKit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nonoka.nonoka-Part22-spriteKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F67883525F27AF000F3F63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Z4MKYS28;
+				INFOPLIST_FILE = "nonoka-Part22-spriteKit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nonoka.nonoka-Part22-spriteKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F67883725F27AF000F3F63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Z4MKYS28;
+				INFOPLIST_FILE = "nonoka-Part22-spriteKitTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nonoka.nonoka-Part22-spriteKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nonoka-Part22-spriteKit.app/nonoka-Part22-spriteKit";
+			};
+			name = Debug;
+		};
+		5F67883825F27AF000F3F63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Z4MKYS28;
+				INFOPLIST_FILE = "nonoka-Part22-spriteKitTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nonoka.nonoka-Part22-spriteKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nonoka-Part22-spriteKit.app/nonoka-Part22-spriteKit";
+			};
+			name = Release;
+		};
+		5F67883A25F27AF000F3F63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Z4MKYS28;
+				INFOPLIST_FILE = "nonoka-Part22-spriteKitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nonoka.nonoka-Part22-spriteKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "nonoka-Part22-spriteKit";
+			};
+			name = Debug;
+		};
+		5F67883B25F27AF000F3F63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Z4MKYS28;
+				INFOPLIST_FILE = "nonoka-Part22-spriteKitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nonoka.nonoka-Part22-spriteKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "nonoka-Part22-spriteKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F67880425F27AE900F3F63A /* Build configuration list for PBXProject "nonoka-Part22-spriteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F67883125F27AF000F3F63A /* Debug */,
+				5F67883225F27AF000F3F63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F67883325F27AF000F3F63A /* Build configuration list for PBXNativeTarget "nonoka-Part22-spriteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F67883425F27AF000F3F63A /* Debug */,
+				5F67883525F27AF000F3F63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F67883625F27AF000F3F63A /* Build configuration list for PBXNativeTarget "nonoka-Part22-spriteKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F67883725F27AF000F3F63A /* Debug */,
+				5F67883825F27AF000F3F63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F67883925F27AF000F3F63A /* Build configuration list for PBXNativeTarget "nonoka-Part22-spriteKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F67883A25F27AF000F3F63A /* Debug */,
+				5F67883B25F27AF000F3F63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F67880125F27AE900F3F63A /* Project object */;
+}
